@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8991074084381841711
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7733031229186509780}
+  - component: {fileID: 3860769301233637125}
+  m_Layer: 0
+  m_Name: GameIntante
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7733031229186509780
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8991074084381841711}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.04, y: 2.61, z: 0.017072333}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3860769301233637125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8991074084381841711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a64c5ae7f0685ff4aa4140f12cfa5830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imageList:
+  - {fileID: 21300000, guid: 045cdb801b937854d9fecbe9d2199a8e, type: 3}
+  - {fileID: 21300000, guid: de8d8d93bbbaf154391a8d20e88caf48, type: 3}
+  - {fileID: 21300000, guid: e54a15e2073dac643929c5b5eb5661fb, type: 3}
+  - {fileID: 21300000, guid: ff116e88e31951f479b38ff886a17ea4, type: 3}
+  - {fileID: 21300000, guid: 8a7f9eb88302f10439d2b3146d42248c, type: 3}
+  - {fileID: 21300000, guid: 995ed0ba1c4c789428d2c91277dc03c5, type: 3}
+  - {fileID: 21300000, guid: a64eda65054c8dd478f335d2487a1c56, type: 3}
+  - {fileID: 21300000, guid: 75bc5d332dc628240a15f41a58771a1d, type: 3}
+  - {fileID: 21300000, guid: 18dddf7ae59c95941ae51a7bc7a5e863, type: 3}
+  - {fileID: 21300000, guid: 4aaf9603995c5fd42b3451f193852877, type: 3}
+  - {fileID: 21300000, guid: 56eaea26a02cc8d489575a8d6818ce71, type: 3}
+  - {fileID: 21300000, guid: 212cfdc3045348441920f39c804831a4, type: 3}
+  - {fileID: 21300000, guid: b018e5eba13a16443bb43e78069212d3, type: 3}
+  - {fileID: 21300000, guid: d68cc26b360e1a84f8e7b0a58e7d8a0b, type: 3}
+  - {fileID: 21300000, guid: 576b01e22c1fab44ab3173726ba74bbd, type: 3}
+  - {fileID: 21300000, guid: e4f8a9d9868cb954f8f26f121e53f4f5, type: 3}
+  - {fileID: 21300000, guid: 99cbb292c9df3fe4497dbd661bb71567, type: 3}
+  - {fileID: 21300000, guid: ef5c3426a8617a44d9972dd5316365b1, type: 3}
+  - {fileID: 21300000, guid: 8d347d107604df74aa4aadbc02ae095d, type: 3}
+  - {fileID: 21300000, guid: 3039af3797644e44e8797ebc65065a13, type: 3}
+  numberOfObjectsToSpawn: 1
+  tilePrefab: {fileID: 5572499911708194803, guid: c77d1ff9046c9904ab21cb53a75ff4e5, type: 3}
